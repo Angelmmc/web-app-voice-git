@@ -1,3 +1,4 @@
+// Aquí puedes realizar acciones adicionales después de la identificación por voz.
 document.addEventListener('DOMContentLoaded', function () {
     const resultContainer = document.getElementById('result-container');
     const recognition = new webkitSpeechRecognition();
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     recognition.onend = function () {
-        // Aquí puedes realizar acciones adicionales después de la identificación por voz.
+        
     };
 
     // Agregar un evento de clic al contenedor para iniciar la identificación por voz.
